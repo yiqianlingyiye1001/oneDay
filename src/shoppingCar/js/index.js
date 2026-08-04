@@ -224,6 +224,7 @@ class UI {
 
         var div = document.createElement('div')
         div.className = 'add-to-car';
+        div.classList.add('active');
 
         var i = document.createElement('i');
         i.className = 'iconfont i-jiajianzujianjiahao';
